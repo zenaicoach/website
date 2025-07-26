@@ -1,0 +1,214 @@
+{
+  "site": {
+    "title": "Zen AI - Personal Growth Reimagined",
+    "description": "The first AI life coach for human flourishing—designed to help billions discover clarity, purpose, and fulfillment.",
+    "email": "hello2@zenai.coach",
+    "copyright": "© 2025 Zen AI. All Rights Reserved."
+  },
+  "navigation": {
+    "logo": "Zen AI",
+    "links": [
+      { "href": "#problem", "text": "The Silent Pandemic" },
+      { "href": "#zen-ai-coach", "text": "Zen AI Coach" },
+      { "href": "#vision", "text": "Benevolent Mission" },
+      { "href": "#early-access", "text": "Early Access" }
+    ],
+    "cta": "Call for Developers"
+  },
+  "hero": {
+    "title": "AI Life Coach for Human Flourishing",
+    "subtitle": "The first AI life coach for human flourishing—designed to help billions discover clarity, purpose, and fulfillment.",
+    "buttons": [
+      { "href": "#developers", "text": "Join as Developer", "variant": "primary" },
+      { "href": "#get-involved", "text": "Invest", "variant": "secondary" },
+      { "href": "#early-access", "text": "Get Early Access", "variant": "secondary" }
+    ]
+  },
+  "problem": {
+    "title": "The Silent Pandemic",
+    "stats": [
+      { "text": "1 in 5 U.S. adults", "emphasis": true },
+      { "text": "struggle with mental health. Globally, anxiety and depression are up", "emphasis": false },
+      { "text": "25%", "emphasis": true },
+      { "text": ". Loneliness and purposelessness are at record highs.", "emphasis": false }
+    ],
+    "description": "Traditional solutions—therapy, life coaching, wellness apps—are falling short. Overwhelming users with content but failing to deliver authentic, long-term transformation.",
+    "cta": { "href": "#opportunity", "text": "See How Zen AI Solves This" }
+  },
+  "opportunity": {
+    "title": "The Opportunity",
+    "description": "At the intersection of a global mental health crisis and widespread market inefficiencies lies a transformative opportunity.",
+    "solution": "Zen AI Coach blends generative AI, ancient wisdom, and modern psychology to create deeply personalized coaching at scale—unlocking authentic human flourishing.",
+    "market": {
+      "title": "A $100B Market Ready for Disruption",
+      "cta": { "href": "#vision", "text": "Learn About Our Vision" }
+    }
+  },
+  "missionFirst": {
+    "title": "Mission First. Business Ready.",
+    "subtitle": "Impact First. Scalable Business Model.",
+    "description": "We're on a mission to help people rediscover clarity, balance, and joy through AI-powered life coaching rooted in timeless wisdom.",
+    "features": [
+      "Visionary leaders & rockstar developers.",
+      "$100B+ wellness & coaching industry.",
+      "Free services for underprivileged communities."
+    ],
+    "cta": { "href": "#get-involved", "text": "Join Our Mission" }
+  },
+  "zenAICoach": {
+    "title": "Zen AI Coach – The Quantum Leap",
+    "subtitle": "Reimagining Personal Growth with AI",
+    "description": "Zen AI Coach combines ancient wisdom, psychology, neuroscience, and AI to deliver a life coach that evolves with you.",
+    "additional": "It's your guide, confidant, and accountability partner—on-demand, anytime, anywhere.",
+    "cta": { "href": "#how-it-works", "text": "Meet Your New Life Coach" }
+  },
+  "howItWorks": {
+    "title": "Meet Your New Life Coach",
+    "subtitle": "Personalized. Empowering. Wise.",
+    "features": [
+      {
+        "icon": "lightning",
+        "title": "Personal Insight Mapping",
+        "description": "Understands your aspirations and challenges."
+      },
+      {
+        "icon": "circle",
+        "title": "Generative AI Engine",
+        "description": "Combines ancient wisdom and modern psychology."
+      },
+      {
+        "icon": "share",
+        "title": "Interactive & Adaptive",
+        "description": "Listens, asks, engages, and grows with you."
+      },
+      {
+        "icon": "user",
+        "title": "Scalable Intimacy",
+        "description": "Billions can experience elite-level coaching."
+      }
+    ],
+    "cta": { "href": "#early-access", "text": "See How It Works" }
+  },
+  "vision": {
+    "title": "Benevolent AI That Serves the Soul",
+    "subtitle": "Designed for Deep Human Flourishing",
+    "description": "Unlike apps designed to maximize screen time, Zen AI Coach helps you spend less time online and more time living—building real-world relationships, practicing stillness, and finding purpose.",
+    "cta": { "href": "#get-involved", "text": "Join the Movement" }
+  },
+  "empowerBillions": {
+    "title": "Empower Billions – One Journey at a Time",
+    "content": [
+      {
+        "text": "2B+ people worldwide",
+        "emphasis": true,
+        "description": " are spiritually curious and unaffiliated. They seek meaning beyond traditional frameworks."
+      },
+      {
+        "text": "We empower SBNR seekers and Spiritual and Religious (SAR) believers alike—offering a revolutionary platform for inner transformation, free from institutional boundaries.",
+        "emphasis": false
+      }
+    ],
+    "summary": "Zen AI makes elite-level coaching accessible to all—disrupting wellness apps and traditional institutions with a deeply personalized, interactive experience.",
+    "cta": { "href": "#how-it-works", "text": "Discover the Difference" }
+  },
+  "tamRationale": {
+    "title": "TAM Rationale",
+    "description": "TAM ≈ $100 B (2025), combining: a proven $16 B digital coaching core and a carefully chosen slice of the much larger spiritual & religious services market."
+  },
+  "getInvolved": {
+    "title": "Get Involved Early",
+    "subtitle": "Contribute. Invest. Join the Waitlist.",
+    "cards": [
+      {
+        "icon": "user",
+        "title": "Early Adopters",
+        "description": "Free early access & shape the future."
+      },
+      {
+        "icon": "money",
+        "title": "Investors",
+        "description": "Enter a $100B+ market ripe for disruption."
+      },
+      {
+        "icon": "code",
+        "title": "Developers",
+        "description": "Build an AI platform for global human transformation."
+      }
+    ],
+    "cta": { "href": "#early-access", "text": "Reserve Your Spot" }
+  },
+  "developers": {
+    "title": "Developers – Build the Future",
+    "subtitle": "Shape the Future of AI-Powered Human Flourishing",
+    "description": "Founding roles available for developers ready to change the world.",
+    "details": [
+      "Technical Challenges: Generative AI, wisdom graphs, real-time personalization, latest UX.",
+      "Founder-level equity and ownership opportunities for those shaping the core product and vision."
+    ],
+    "cta": { "href": "#contact", "text": "Apply as Developer" }
+  },
+  "earlyAccess": {
+    "title": "Reserve Your Spot",
+    "subtitle": "Free Early Access + Exclusive Perks",
+    "benefits": [
+      "Gain early access before paid launch.",
+      "Get special recognition & surprise gifts.",
+      "Be part of a community shaping Zen AI's future."
+    ],
+    "form": {
+      "title": "Get on the Waitlist Now",
+      "subtitle": "Be the first to know when we launch.",
+      "fields": [
+        { "name": "name", "placeholder": "First Name", "type": "text", "required": true },
+        { "name": "email", "placeholder": "Email", "type": "email", "required": true }
+      ],
+      "submit": "Sign Me Up!",
+      "success": {
+        "title": "Thank you!",
+        "message": "You have successfully joined our subscriber list."
+      }
+    },
+    "privacy": "We respect your privacy. No spam."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is Zen AI Coach?",
+        "answer": "An AI life coach blending generative AI, ancient wisdom & psychology for personal transformation."
+      },
+      {
+        "question": "How is it different?",
+        "answer": "Not a passive app—it actively engages, adapts, and evolves."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Yes. Encrypted & anonymized for privacy."
+      },
+      {
+        "question": "When will it launch?",
+        "answer": "Soft launch in the coming months. Early adopters get free access."
+      }
+    ],
+    "cta": { "href": "#", "text": "Explore More FAQs" }
+  },
+  "footer": {
+    "tagline": "Disrupting the Personal Development & Spiritual Growth Industry with Next-Gen AI",
+    "links": [
+      { "href": "#problem", "text": "The Silent Pandemic" },
+      { "href": "#zen-ai-coach", "text": "Zen AI Coach" },
+      { "href": "#vision", "text": "Benevolent Mission" },
+      { "href": "#developers", "text": "Call for Developers" },
+      { "href": "#early-access", "text": "Early Access" },
+      { "href": "#faq", "text": "FAQ" }
+    ],
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with our team."
+    },
+    "legal": [
+      { "href": "#", "text": "Privacy Policy" },
+      { "href": "#", "text": "Terms & Conditions" }
+    ]
+  }
+}
