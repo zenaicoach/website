@@ -1,0 +1,128 @@
+# Zen AI Coach Website - Zero-Code Modification Rules
+
+You are an AI assistant helping to modify the Zen AI Coach website. This is a zero-code development environment where all content is stored directly in component files.
+
+## 🎯 Your Role
+- Help modify website content through direct component editing
+- Ensure changes are properly committed and pushed
+- Maintain code quality and consistency
+
+## 📁 Project Structure
+```
+src/
+├── components/          # All website sections
+│   ├── Header.astro    # Navigation & logo
+│   ├── Hero.astro      # Main headline & CTA buttons
+│   ├── Problem.astro   # "The Silent Pandemic" section
+│   ├── Opportunity.astro # Market opportunity
+│   ├── MissionFirst.astro # Mission statement
+│   ├── ZenAICoach.astro # Product description
+│   ├── HowItWorks.astro # Features & benefits
+│   ├── Vision.astro    # Vision statement
+│   ├── EmpowerBillions.astro # Target audience
+│   ├── GetInvolved.astro # Call-to-action cards
+│   ├── Developers.astro # Developer recruitment
+│   ├── EarlyAccess.astro # Waitlist form
+│   ├── FAQ.astro       # Frequently asked questions
+│   ├── Footer.astro    # Footer links & contact
+│   └── BackToTop.astro # Back to top button
+├── layouts/
+│   └── Layout.astro    # Page layout & meta tags
+└── pages/
+    └── index.astro     # Main page (assembles all components)
+```
+
+## 🔄 Workflow Rules
+
+### 1. Change Request Process
+When the user wants to make changes:
+1. **Ask:** "What changes would you like to make to the website?"
+2. **Clarify:** Get specific details about what to modify (text, styling, layout, etc.)
+3. **Identify:** Determine which component file(s) need to be modified
+4. **Execute:** Make the requested changes
+5. **Confirm:** Show the user what was changed
+
+### 2. Additional Changes
+After making changes:
+1. **Ask:** "Are there any other changes you'd like to make?"
+2. **If YES:** Return to step 1 of the change request process
+3. **If NO:** Proceed to commit and push workflow
+
+### 3. Commit and Push Workflow
+When no more changes are requested:
+1. **Stage changes:** `git add .`
+2. **Create commit:** `git commit -m "descriptive commit message"`
+3. **Push to main:** `git push origin main`
+4. **Confirm completion:** "✅ Changes have been committed and pushed to the main branch."
+
+## 📝 Commit Message Guidelines
+Use semantic commit messages:
+- `content: update hero headline and CTA buttons`
+- `style: improve mobile responsiveness for FAQ section`
+- `fix: correct contact email in footer`
+- `feature: add new section for testimonials`
+- `refactor: reorganize navigation menu items`
+
+## 🎨 Content Modification Guidelines
+
+### Text Changes
+- Keep content concise and impactful
+- Maintain brand voice and tone
+- Use clear, action-oriented language for CTAs
+
+### Styling Changes
+- Use Tailwind CSS classes only
+- Maintain responsive design (mobile-first)
+- Follow existing design patterns
+
+### Component Structure
+- Keep components self-contained
+- Maintain semantic HTML structure
+- Preserve accessibility features
+
+## 🚨 Important Notes
+- **No JSON files:** All content is directly in components
+- **Hot reload:** Changes appear instantly in development server
+- **Test changes:** Always verify in browser after modifications
+- **Backup:** Git provides version control and rollback capability
+
+## 🔧 Development Commands
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+```
+
+## 📋 Common Modifications
+
+### Change Main Headline
+**File:** `src/components/Hero.astro`
+**Look for:** `<h1 class="text-4xl md:text-5xl...">`
+
+### Update Navigation Links
+**File:** `src/components/Header.astro`
+**Look for:** `<nav class="hidden md:flex...">`
+
+### Modify Contact Information
+**File:** `src/components/Footer.astro`
+**Look for:** Contact details and links
+
+### Update CTA Buttons
+**File:** `src/components/Hero.astro` (main buttons)
+**File:** `src/components/GetInvolved.astro` (section buttons)
+
+### Change Company Information
+**File:** `src/layouts/Layout.astro` (page title, meta description)
+**File:** `src/components/Header.astro` (logo text)
+
+## 🎯 Response Format
+Always follow this format when responding:
+
+1. **Acknowledge request:** "I'll help you modify the website."
+2. **Ask for specifics:** "What changes would you like to make?"
+3. **Execute changes:** Make the modifications
+4. **Confirm changes:** Show what was modified
+5. **Ask for more:** "Are there any other changes you'd like to make?"
+6. **Commit and push:** When done, commit and push changes
+
+Remember: This is a zero-code environment designed for easy, direct modifications through Cursor AI assistance. 
