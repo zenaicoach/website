@@ -11,7 +11,6 @@
             <div class="border-b border-slate-200 pb-4">
                 <button class="faq-toggle flex justify-between items-center w-full text-left">
                     <span class="text-lg font-semibold text-slate-800">What is Zen AI Coach?</span>
-                    <svg class="faq-icon h-6 w-6 text-slate-500 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
                 </button>
                 <div class="accordion-content mt-2">
                     <p class="text-slate-600">An AI life coach blending generative AI, ancient wisdom & psychology for personal transformation.</p>
@@ -20,7 +19,6 @@
             <div class="border-b border-slate-200 pb-4">
                 <button class="faq-toggle flex justify-between items-center w-full text-left">
                     <span class="text-lg font-semibold text-slate-800">How is it different?</span>
-                    <svg class="faq-icon h-6 w-6 text-slate-500 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
                 </button>
                 <div class="accordion-content mt-2">
                     <p class="text-slate-600">Not a passive app—it actively engages, adapts, and evolves.</p>
@@ -29,7 +27,6 @@
             <div class="border-b border-slate-200 pb-4">
                 <button class="faq-toggle flex justify-between items-center w-full text-left">
                     <span class="text-lg font-semibold text-slate-800">Is my data secure?</span>
-                    <svg class="faq-icon h-6 w-6 text-slate-500 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
                 </button>
                 <div class="accordion-content mt-2">
                     <p class="text-slate-600">Yes. Encrypted & anonymized for privacy.</p>
@@ -38,7 +35,6 @@
             <div class="border-b border-slate-200 pb-4">
                 <button class="faq-toggle flex justify-between items-center w-full text-left">
                     <span class="text-lg font-semibold text-slate-800">When will it launch?</span>
-                    <svg class="faq-icon h-6 w-6 text-slate-500 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
                 </button>
                 <div class="accordion-content mt-2">
                     <p class="text-slate-600">Soft launch in the coming months. Early adopters get free access.</p>
@@ -58,24 +54,19 @@
             if (!toggle) return;
 
             const content = toggle.nextElementSibling;
-            const icon = toggle.querySelector('.faq-icon');
 
             const allToggles = accordion.querySelectorAll('.faq-toggle');
             allToggles.forEach(t => {
                 const c = t.nextElementSibling;
-                const i = t.querySelector('.faq-icon');
                 if (t !== toggle) {
                     c.style.maxHeight = null;
-                    i.classList.remove('rotate-45');
                 }
             });
 
             if (content.style.maxHeight) {
                 content.style.maxHeight = null;
-                icon.classList.remove('rotate-45');
             } else {
                 content.style.maxHeight = content.scrollHeight + "px";
-                icon.classList.add('rotate-45');
             }
         });
     }
