@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BackToTop from '../components/BackToTop.astro';
+---
+
+<Layout title="Opportunities - Join Our Mission | Zen AI">
+    <Header />
+
+    <main>
+        <section class="min-h-screen pt-32 pb-16 flex items-center">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight">
+                        Join Our <span class="text-accent">Mission</span>
+                    </h1>
+                    <p class="mt-8 text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+                        Be part of the revolution in AI-powered human flourishing. Choose your path to make a difference.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 sm:py-24 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">How You Can Contribute</h2>
+                    <p class="mt-8 text-lg text-slate-600">Multiple pathways to join our mission of transforming human flourishing through AI.</p>
+                </div>
+                <div class="mt-16 grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-white rounded-xl p-8 text-center shadow-md border border-slate-200/80">
+                        <div class="mx-auto bg-violet-100 rounded-full h-16 w-16 flex items-center justify-center">
+                           <svg class="h-8 w-8 text-violet-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
+                        </div>
+                        <h3 class="mt-6 text-xl font-bold text-slate-900">Early Adopters</h3>
+                        <p class="mt-2 text-slate-600">Free early access & shape the future.</p>
+                        <a href="#early-access" class="inline-block mt-4 btn-primary">Get Early Access</a>
+                    </div>
+                    <div class="bg-white rounded-xl p-8 text-center shadow-md border border-slate-200/80">
+                        <div class="mx-auto bg-violet-100 rounded-full h-16 w-16 flex items-center justify-center">
+                            <svg class="h-8 w-8 text-violet-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.75A.75.75 0 013 4.5h.75m0 0h.75A.75.75 0 015.25 6v.75m0 0v.75A.75.75 0 014.5 8.25h-.75m0 0h.75a.75.75 0 01.75.75v.75m0 0v.75A.75.75 0 013.75 11.25h-.75m0 0v.75a.75.75 0 01-.75.75h-.75m0 0h.75A.75.75 0 013 12.75v.75m0 0v.75a.75.75 0 01-.75.75h-.75m0 0h.75a.75.75 0 01.75.75v.75m0 0v.75a.75.75 0 01-.75.75h-.75M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                        </div>
+                        <h3 class="mt-6 text-xl font-bold text-slate-900">Investors</h3>
+                        <p class="mt-2 text-slate-600">Enter a $100B+ market ripe for disruption.</p>
+                        <a href="#get-involved" class="inline-block mt-4 btn-primary">Learn More</a>
+                    </div>
+                    <div class="bg-white rounded-xl p-8 text-center shadow-md border border-slate-200/80">
+                        <div class="mx-auto bg-violet-100 rounded-full h-16 w-16 flex items-center justify-center">
+                            <svg class="h-8 w-8 text-violet-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" /></svg>
+                        </div>
+                        <h3 class="mt-6 text-xl font-bold text-slate-900">Developers</h3>
+                        <p class="mt-2 text-slate-600">Build an AI platform for global human transformation.</p>
+                        <a href="#developers" class="inline-block mt-4 btn-primary">Apply as Developer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 sm:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">Ready to Make a Difference?</h2>
+                    <p class="mt-8 text-lg text-slate-600">Join thousands of others who are already part of our mission to transform human flourishing through AI.</p>
+                    <div class="mt-10">
+                        <a href="/" class="btn-primary">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <Footer />
+    <BackToTop />
+</Layout> 
