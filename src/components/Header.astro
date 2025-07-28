@@ -8,10 +8,10 @@
             Zen AI
         </a>
         <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-            <a href="#problem" class="text-slate-600 hover:text-slate-900 transition-colors">The Silent Pandemic</a>
-            <a href="#opportunity" class="text-slate-600 hover:text-slate-900 transition-colors">The Opportunity</a>
-            <a href="#mission-first" class="text-slate-600 hover:text-slate-900 transition-colors">Mission First</a>
-            <a href="#zen-ai-coach" class="text-slate-600 hover:text-slate-900 transition-colors">Zen AI Coach</a>
+            <a href="#problem" class="nav-link text-slate-600 hover:text-slate-900 transition-colors" data-home="#problem" data-opportunities="/website/#problem">The Silent Pandemic</a>
+            <a href="#opportunity" class="nav-link text-slate-600 hover:text-slate-900 transition-colors" data-home="#opportunity" data-opportunities="/website/#opportunity">The Opportunity</a>
+            <a href="#mission-first" class="nav-link text-slate-600 hover:text-slate-900 transition-colors" data-home="#mission-first" data-opportunities="/website/#mission-first">Mission First</a>
+            <a href="#zen-ai-coach" class="nav-link text-slate-600 hover:text-slate-900 transition-colors" data-home="#zen-ai-coach" data-opportunities="/website/#zen-ai-coach">Zen AI Coach</a>
             <a href="/website/opportunities" class="text-slate-600 hover:text-slate-900 transition-colors">Join Our Mission</a>
         </nav>
 
@@ -24,12 +24,11 @@
     </div>
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 border-t border-slate-200">
-        <a href="#problem" class="block py-2 text-slate-600 hover:text-slate-900">The Silent Pandemic</a>
-        <a href="#opportunity" class="block py-2 text-slate-600 hover:text-slate-900">The Opportunity</a>
-        <a href="#mission-first" class="block py-2 text-slate-600 hover:text-slate-900">Mission First</a>
-        <a href="#zen-ai-coach" class="block py-2 text-slate-600 hover:text-slate-900">Zen AI Coach</a>
+        <a href="#problem" class="mobile-nav-link block py-2 text-slate-600 hover:text-slate-900" data-home="#problem" data-opportunities="/website/#problem">The Silent Pandemic</a>
+        <a href="#opportunity" class="mobile-nav-link block py-2 text-slate-600 hover:text-slate-900" data-home="#opportunity" data-opportunities="/website/#opportunity">The Opportunity</a>
+        <a href="#mission-first" class="mobile-nav-link block py-2 text-slate-600 hover:text-slate-900" data-home="#mission-first" data-opportunities="/website/#mission-first">Mission First</a>
+        <a href="#zen-ai-coach" class="mobile-nav-link block py-2 text-slate-600 hover:text-slate-900" data-home="#zen-ai-coach" data-opportunities="/website/#zen-ai-coach">Zen AI Coach</a>
         <a href="/website/opportunities" class="block py-2 text-slate-600 hover:text-slate-900">Join Our Mission</a>
-
     </div>
 </header>
 
@@ -43,4 +42,33 @@
             mobileMenu.classList.toggle('hidden');
         });
     }
+
+    // Smart Navigation Logic
+    function updateNavigationLinks() {
+        const currentPath = window.location.pathname;
+        const isOpportunitiesPage = currentPath.includes('/opportunities');
+        
+        // Update desktop navigation links
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            if (isOpportunitiesPage) {
+                link.href = link.getAttribute('data-opportunities');
+            } else {
+                link.href = link.getAttribute('data-home');
+            }
+        });
+        
+        // Update mobile navigation links
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileNavLinks.forEach(link => {
+            if (isOpportunitiesPage) {
+                link.href = link.getAttribute('data-opportunities');
+            } else {
+                link.href = link.getAttribute('data-home');
+            }
+        });
+    }
+
+    // Run on page load
+    document.addEventListener('DOMContentLoaded', updateNavigationLinks);
 </script>
