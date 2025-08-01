@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === 'production' || process.env.GITHUB
 
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://zenaicoach.github.io',
-  // Only add base path for production/GitHub Pages
-  base: isProduction ? '/website/' : undefined,
+  site: 'https://zenai.coach',
+  // No base path needed when using custom domain with GitHub Pages
+  base: undefined,
 }); 
