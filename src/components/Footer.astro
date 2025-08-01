@@ -16,9 +16,9 @@
             <div class="md:col-span-1">
                 <h3 class="font-semibold text-slate-900">Navigate</h3>
                 <ul class="mt-4 space-y-2 text-sm">
-                    <li><a href="#problem" class="footer-nav-link text-slate-500 hover:text-slate-800 transition-colors" data-home="#problem" data-opportunities="/#problem" data-other="/#problem">The Silent Pandemic</a></li>
-                    <li><a href="#zen-ai-coach" class="footer-nav-link text-slate-500 hover:text-slate-800 transition-colors" data-home="#zen-ai-coach" data-opportunities="/#zen-ai-coach" data-other="/#zen-ai-coach">Zen AI Coach</a></li>
-                    <li><a href="#faq" class="footer-nav-link text-slate-500 hover:text-slate-800 transition-colors" data-home="#faq" data-opportunities="/#faq" data-other="/#faq">FAQ</a></li>
+                    <li><a href="/#problem" class="text-slate-500 hover:text-slate-800 transition-colors">The Silent Pandemic</a></li>
+                    <li><a href="/#zen-ai-coach" class="text-slate-500 hover:text-slate-800 transition-colors">Zen AI Coach</a></li>
+                    <li><a href="/#faq" class="text-slate-500 hover:text-slate-800 transition-colors">FAQ</a></li>
                     <li><a href="/opportunities" class="text-slate-500 hover:text-slate-800 transition-colors">Join Our Mission</a></li>
                     <li class="ml-4"><a href="/opportunities#ai-builders" class="text-slate-500 hover:text-slate-800 transition-colors">AI Application & Solution Builders</a></li>
                     <li class="ml-4"><a href="/opportunities#gtm-visionary" class="text-slate-500 hover:text-slate-800 transition-colors">Consumer Go to Market Expert</a></li>
@@ -39,25 +39,3 @@
         </div>
     </div>
 </footer>
-
-<script>
-    // Footer Navigation Logic
-    function updateFooterNavigationLinks() {
-        const currentPath = window.location.pathname;
-        const isHomePage = currentPath === '/' || currentPath === '/index.html' || currentPath.endsWith('/');
-
-        // Update footer navigation links
-        const footerNavLinks = document.querySelectorAll('.footer-nav-link');
-        footerNavLinks.forEach(link => {
-            if (isHomePage) {
-                link.href = link.getAttribute('data-home');
-            } else {
-                // For all other pages, use absolute path to home page sections
-                link.href = link.getAttribute('data-opportunities');
-            }
-        });
-    }
-
-    // Run on page load
-    document.addEventListener('DOMContentLoaded', updateFooterNavigationLinks);
-</script>
